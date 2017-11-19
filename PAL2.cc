@@ -65,9 +65,9 @@ PAL2::PAL2(PALStatistics* statistics, BaseConfig *c, Latency *l)
       tmp = new std::map<uint64_t, uint64_t>;
       ChFreeSlots[i][100000/lat->SPDIV + 100000/lat->SPDIV] = tmp;
       tmp = new std::map<uint64_t, uint64_t>;
-      ChFreeSlots[i][185000000/(lat->PGDIV*lat->SPDIV)] = tmp;
+      ChFreeSlots[i][185000000*2/(lat->PGDIV*lat->SPDIV)] = tmp;
       tmp = new std::map<uint64_t, uint64_t>;
-      ChFreeSlots[i][185000000/(lat->PGDIV*lat->SPDIV) + 100000/lat->SPDIV] = tmp;
+      ChFreeSlots[i][185000000*2/(lat->PGDIV*lat->SPDIV) + 100000/lat->SPDIV] = tmp;
       tmp = new std::map<uint64_t, uint64_t>;
       ChFreeSlots[i][1500000/lat->SPDIV] = tmp;
       break;
@@ -77,9 +77,9 @@ PAL2::PAL2(PALStatistics* statistics, BaseConfig *c, Latency *l)
       tmp = new std::map<uint64_t, uint64_t>;
       ChFreeSlots[i][100000/lat->SPDIV + 100000/lat->SPDIV] = tmp;
       tmp = new std::map<uint64_t, uint64_t>;
-      ChFreeSlots[i][185000000/(lat->PGDIV*lat->SPDIV)] = tmp;
+      ChFreeSlots[i][185000000*2/(lat->PGDIV*lat->SPDIV)] = tmp;
       tmp = new std::map<uint64_t, uint64_t>;
-      ChFreeSlots[i][185000000/(lat->PGDIV*lat->SPDIV) + 100000/lat->SPDIV] = tmp;
+      ChFreeSlots[i][185000000*2/(lat->PGDIV*lat->SPDIV) + 100000/lat->SPDIV] = tmp;
       tmp = new std::map<uint64_t, uint64_t>;
       ChFreeSlots[i][1500000/lat->SPDIV] = tmp;
       break;
@@ -89,9 +89,9 @@ PAL2::PAL2(PALStatistics* statistics, BaseConfig *c, Latency *l)
       tmp = new std::map<uint64_t, uint64_t>;
       ChFreeSlots[i][100000/lat->SPDIV + 100000/lat->SPDIV] = tmp;
       tmp = new std::map<uint64_t, uint64_t>;
-      ChFreeSlots[i][185000000/(lat->PGDIV*lat->SPDIV)] = tmp;
+      ChFreeSlots[i][185000000*2/(lat->PGDIV*lat->SPDIV)] = tmp;
       tmp = new std::map<uint64_t, uint64_t>;
-      ChFreeSlots[i][185000000/(lat->PGDIV*lat->SPDIV) + 100000/lat->SPDIV] = tmp;
+      ChFreeSlots[i][185000000*2/(lat->PGDIV*lat->SPDIV) + 100000/lat->SPDIV] = tmp;
       tmp = new std::map<uint64_t, uint64_t>;
       ChFreeSlots[i][1500000/lat->SPDIV] = tmp;
       break;
